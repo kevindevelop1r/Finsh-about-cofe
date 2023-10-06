@@ -1,0 +1,39 @@
+.footer {
+    background-color: #2C343E;
+    margin-top: 50px;
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        padding: 45px 0px;
+        margin: 0;
+    }
+
+    &__nav {
+        margin-left: 102px;
+    }
+
+    &__link:hover {
+        color: darkcyan;
+    }
+}
+
+svg {
+    margin-left: 9px;
+}
+
+.footer__nav:nth-child(3){
+    margin-left: 369px;
+}
+
+
+path {
+    fill: yellowgreen;
+}
+
+path:hover {
+    fill: red;
+}
